@@ -1,0 +1,126 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive-container {
+  background-color: #ffffff;
+  width: 85%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointments-container {
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-appointments-container {
+  color: #171f46;
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #171f46;
+}
+
+.label {
+  color: #9897f0;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+
+.input {
+  color: #171f46;
+  font-family: Roboto;
+  border: 1px solid #9897f0;
+  border-radius: 8px;
+  height: 40px;
+  padding: 8px 0 8px 16px;
+  margin-bottom: 24px;
+  outline: none;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  align-self: flex-start;
+  font-family: Roboto;
+  border: none;
+  border-radius: 8px;
+  border: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.image {
+  width: 50%;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #b5b7c4;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.appointments-heading {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 20px;
+  margin: 0;
+}
+
+.filter-style {
+  font-family: Roboto;
+  font-size: 12px;
+  border-radius: 12px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  border: none;
+}
+
+.filter-filtered {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  background-color: #9897f0;
+  color: #ffffff;
+  border: 1px solid #9897f0;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+}
